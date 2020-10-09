@@ -27,8 +27,7 @@ const imagesEl = images.map(image => {
     'beforeEnd',
     `<li><img src="${image.url}" alt="${image.alt}" width = 200 height = 150></li>`,
   );
-  console.log(imagesEl);
 });
 const itemEl = document.querySelectorAll('li');
 itemEl.classList.add('item');
-console.log(itemEl);
+// console.log(itemEl);
